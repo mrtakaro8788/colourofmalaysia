@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>colour of malaysia</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/download.css" rel="stylesheet" type="text/css">
+  </head>
+  	<!-- body code goes here -->
+<body>
+    <header>
+	<a id="logo" href="#"><img src="images/color-of-malaysia@2x.png" alt="colourofmalaysia" width="155" height="50"></a>
+	<div class="menuToggle" onClick="toggleMenu();"></div>
+	<ul class="navigation">
+		
+	<li><a href="index.html" onClick="toggleMenu();">Home</a></li>
+		<li><a href="about us.html" onClick="toggleMenu();">About Us</a></li>
+		<li><a href="culture.html" onClick="toggleMenu();">Culture</a></li>
+		<li><a href="download.html" onClick="toggleMenu();">Downloads</a></li>
+		<li><a href="contact.html" onClick="toggleMenu();">Contact</a></li>
+		
+	</ul>
+	</header>
+	
+<section id="banner" class="banner">
+	<div class="content">
+		<h2>Download</h2>
+	</div>
+	</section> <!--the end of banner-->
+    
+	
+<section id="about" class="about">
+	<div id="about_content">		
+	<div class="aboutcontent_info">
+		<h2 class="titleText">Our App</h2>
+		<br>
+<p>Colour of Malaysia is a company dedicated to raising awareness and promoting the rich cultural heritage of Malaysia.  <br> 
+  <br>
+We strive to celebrate the vibrant colour that define Malaysia's diverse traditions, arts, customs, and landscapes.
+</p>
+	  </div>
+	
+	</div>
+	</section> <!--the end of about-->
+	
+<section id="member" class="member">
+	   <div class="title">
+		<h2 class="titleText">
+		   Team Member
+		   </h2>
+		</div> <!-- the of title-->
+		
+		<div class="content">
+		  <div class="box">
+			<div class="imgBx">
+			  <img src="images/category culture.png" alt="category">
+			  </div> <!-- the end of imgBx-->
+			   <div class="text">
+				   <h3>Category Culture</h3>
+				   <br>
+				   <h4>Various of Malaysia culture you can learn from and discover</h4>
+			    </div> <!-- the end of text-->
+			</div> <!-- the end of box-->
+			
+			<div class="box">
+			<div class="imgBx">
+			  <img src="images/collect bookmarks.png" alt="bookmarks">
+			  </div> <!-- the end of imgBx-->
+			   <div class="text">
+				   <h3>Collect &amp; Bookmarks</h3>
+				   <br>
+				   <h4>Bookmark your favourite topic and organize your own category </h4>
+			    </div> <!-- the end of text-->
+			</div> <!-- the end of box-->
+			
+			<div class="box">
+			<div class="imgBx">
+			  <img src="images/sharethought.png" alt="share">
+			  </div> <!-- the end of imgBx-->
+			   <div class="text">
+				   <h3>Share your thoughts</h3>
+				   <br>
+				   <h4>Share your thought and discussion with others who have same interest as you</h4>
+			    </div> <!-- the end of text-->
+			</div> <!-- the end of box-->
+						
+</div> <!-- the end of content-->
+		
+</section> <!-- the end of member-->  
+	
+	
+<section id="downloadsection">
+	<div class="downloaddescription">
+		<img class="logo_download_section" src="images/color-of-malaysia@2x.png" alt="com_logo" width="300">
+		<h2 class="download_now">Download now to learn more about Malaysia’s various Culture</h2>
+	 <div class="download_frame">
+<img class="qr" alt="app qr" src="images/rectangle-1143@2x.png">
+<img class="appstore" alt="appstore" src="images/rectangle-1145@2x.png">
+<img class="playstore" alt="playstore" src="images/rectangle-1144@2x.png">
+</div> 
+  </div>
+	<div class="phoneapp">
+		<img class="mockup_app" src="images/3-phones-1@2x.png" alt="phone_app" width="500">
+  </div>
+</section><!--the end of download-->
+	
+<footer class="footer">
+    <div class="footercom">
+      <img src="images/color-of-malaysia-logo03@2x.png" alt="" width="200">
+    </div>
+<!--	<ul class="footer_navigation">
+		
+	<li><a href="#">Home</a></li>
+		<li><a href="#">About Us</a></li>
+		<li><a href="#">Culture</a></li>
+		<li><a href="#">Downloads</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>  -->
+	<div class="copyrightText">
+	<p>Founded &copy; <a href="#">Colour of Malaysia </a>Inc. All Rights Reserved.</p>
+</div>
+</footer>
+
+<script type="text/javascript">
+	window.addEventListener('scroll',function(){const header = document .querySelector('header');
+	header.classList.toggle("sticky", window.scrollY>0);});
+		function toggleMenu(){
+				var menuToggle =
+				document.querySelector('.menuToggle');
+				menuToggle.classList.toggle('active');
+				var navigation =
+				document.querySelector('.navigation');
+				navigation.classList.toggle('active');
+		}
+	</script>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>

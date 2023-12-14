@@ -1,0 +1,451 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+header.sticky{
+    background: #FDD437;
+    padding: 10px 100px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+}
+
+header .navigation{
+	position: relative;
+	display: flex;
+	list-style-type: none;
+}
+
+header .navigation li{
+	margin-left: 30px;
+}
+
+header .navigation li a{
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+header .navigation li a:hover{
+	color: #F36F21;
+}
+
+header .sticky .navigation li a{
+	color: #111;
+}
+
+p{
+	font-weight: 300;
+	color: #111;
+}
+
+.banner{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FDD437;
+    background: url("../images/contact cover.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.banner .content {
+	max-width: 70%;
+	text-align: right;
+}
+
+.banner .content h2{
+	font-size: 5em;
+	color: #fff;
+}
+
+.banner .content p{
+	font-size: 1em;
+	color: #FFFFFF;
+}
+
+.btn{
+	text-decoration: none;
+	font-size: 1em;
+	color: #fff;
+	background: #F36F21;
+	padding: 10px 30px;
+	margin: 20px 0 0 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: inline-block;
+	transition: 0.5s;
+}
+
+.btn:hover{
+	letter-spacing: 6px;
+}
+
+section {
+	padding: 100px;
+
+}
+#banner .content {
+    text-align: right;
+    margin-left: 163px;
+}
+
+#about_content {
+	display: flex;
+	justify-content: space-between;
+}
+
+#about_content .aboutcontent_info{
+	width: 48%;
+
+}
+
+#about_content .aboutcontent_info .titleText2{
+	font-size: 1.2em;
+}
+
+.titleText{
+    color: #111;
+    font-size: 3em;
+    font-weight: 600;
+
+}
+
+#about_content .aboutcontent_info .imgBx{
+	position:relative;
+	top: 0;
+	left: 0;
+	width: 600px;
+	height: 500px;
+	object-fit: cover;
+}
+
+#about_content .aboutcontent_info .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    margin-left: 60px;
+}
+
+#culture_content {
+	display: flex;
+	justify-content: space-between;
+}
+
+#culture_content .culturecontent_info{
+	width: 48%;
+}
+
+#culture_content .culturecontent_info .imgBx{
+	position:relative;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 350px;
+	object-fit: cover;
+}
+
+#culture_content .culturecontent_info .imgBx img{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#downloadsection{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+    position: relative;
+    background-color: #3bc0ef;
+    overflow: hidden;
+}
+
+#downloadsection .downloaddescription{
+    width: 651px;
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    /* [disabled]margin-bottom: 52px; */
+    padding-top: 0px;
+    /* [disabled]margin-top: 6px; */
+    margin-right: 6px;
+    margin-left: 6px;
+    /* [disabled]padding-bottom: 13px; */
+	
+}
+
+#downloadsection .downloaddescription .logo_download_section{
+	margin-top: 15px;
+}
+
+#downloadsection .downloaddescription .download_now{
+	margin-top: 20px;
+	font-size: 2em;
+	color: #FFFFFF;
+}
+
+#downloadsection .downloaddescription .download_frame{
+	margin-top: 20px;
+}
+
+#downloadsection .downloaddescription .download_frame .qr {
+    top: 0px;
+    left: 0px;
+    width: 107px;
+    height: 109px;
+    margin-right: 10px;
+}
+
+#downloadsection .downloaddescription .download_frame .appstore {
+    top: 0px;
+    left: 312px;
+    width: 159px;
+    height: 109px;
+    margin-right: 10px;
+}
+
+#downloadsection .downloaddescription .download_frame .playstore {
+    top: 0px;
+    left: 142px;
+    width: 159px;
+    height: 109px;
+    margin-right: 10px;
+}
+
+#downloadsection .phoneappp {
+  	position: relative;
+  	width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 12px;
+  	box-sizing: border-box;
+}
+
+#downloadsection .phoneappp .mockup_app {
+  	position: relative;
+  	width: 749px;
+  	height: 672px;
+  	object-fit: cover;
+}
+
+.menu .content, .expert .content,.testimontials .content{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.menu .content .box{
+	width: 340px;
+	margin: 20px;
+	border: 15px solid #fff;
+	box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+
+.menu .content .box .imgBx, .expert .content .box .imgBx{
+	position:relative;
+	width: 100%;
+	height: 300px;
+}
+
+.menu .content .box .imgBx img, .expert .content .box .imgBx img, .testimontials .content .box .imBx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1005;
+	height: 100%;
+	object-fit: cover;
+}
+
+.menu .content .box .text, .expert .content .box .text{
+	padding: 15px 0 5px 5px;
+}
+
+.menu .content .box .text, .expert .content .box .text h3{
+	font-weight: 400;
+	color: #111;
+}
+.footer{
+	align-content: center;
+}
+.footer .footer_navigation{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer .footer_navigation, ul{
+	justify-content: center;
+	text-align: center;
+}
+
+.footer .footer_navigation li{
+	margin-left: 30px;
+}
+
+.footer .footer_navigation li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+.copyrightText{
+	padding: 8px 40px;
+	border-top: 1px solid rgba(255,177,18,1.00);
+	text-align: center;
+}
+
+.copyrightText p{
+	color: #333333;
+}
+
+.copyrightText a{
+	text-decoration: none;
+	color:#FFFFFF;
+	font-weight: 500;
+}
+
+
+.footer, .copyrightText{
+    background-color: #FDD437;
+    text-align: center;
+}
+
+@media(max-width:1000px){
+	header, header.sticky{
+		padding: 10px 20px;
+	}
+	
+	
+	header .navigation{
+		display: none;
+	}
+	.menuToggle{
+		width: 40px;
+		height: 40px;
+		background: url("../images/Hamburger_icon.png") center no-repeat;
+		background-size: 30px;
+		cursor: pointer;
+	}
+	.menuToggle.active{
+		background: url("../images/Close.png") center no-repeat;
+		background-size: 25px;
+	}
+	header ul.navigation.active{
+		position: fixed;
+		top: 60px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		background: #fff;
+		z-index: 5;
+	}
+	header ul.navigation li a{
+		text-decoration: none;
+		color: #111111;
+		font-size: 1.6em;
+	}
+	
+	header.sticky .menuToggle{
+		filter: invert(1);
+	}
+	
+	section{
+		padding: 20px;
+	}
+	.banner .content h2{
+		font-size: 3em;
+	}
+	#about_content{
+		flex-direction: column;
+	}
+	#about_content .aboutcontent_info{
+		width: 100%;
+	}
+	#about_content .aboutcontent_info .imgBx{
+		height: 300px;
+		margin: 30px 0 0 0;
+	}
+	#culturet_content{
+		flex-direction: column;
+	}
+	
+	#culture_content .culturecontent_info{
+		width: 100%;
+	}
+	#culture_content .culturecontent_info .imgBx{
+		height: 300px;
+		margin: 30px 0 0 0;
+	}
+	.title{
+		text-align: center;
+	}
+	.titleText{
+		font-size: 1.8em;
+		line-height: 1.5em;
+		margin: 0 0 15px 0;
+		font-weight: 600;
+	}
+	
+	#culture_content{
+		overflow: hidden;
+	}
+	
+	#culture_content .culturecontent_info .imgBx{
+	position:relative;
+	top: 0;
+	left: 0;
+	width: 400px;
+	height: 250px;
+	object-fit: cover;
+}
+	
+	#downloadsection{
+		overflow: hidden;
+	}
+}
+
+@media (max-width:500px){
+	.banner .content h2{
+		font-size: 2.2em;
+	}
+}

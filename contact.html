@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>colour of malaysia</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/contact.css" rel="stylesheet" type="text/css">
+  </head>
+  	<!-- body code goes here -->
+<body>
+    <header>
+	<a id="logo" href="#"><img src="images/color-of-malaysia@2x.png" alt="colourofmalaysia" width="155" height="50"></a>
+	<div class="menuToggle" onClick="toggleMenu();"></div>
+	<ul class="navigation">
+		
+	<li><a href="index.html" onClick="toggleMenu();">Home</a></li>
+		<li><a href="about us.html" onClick="toggleMenu();">About Us</a></li>
+		<li><a href="culture.html" onClick="toggleMenu();">Culture</a></li>
+		<li><a href="download.html" onClick="toggleMenu();">Downloads</a></li>
+		<li><a href="contact.html" onClick="toggleMenu();">Contact</a></li>
+		
+	</ul>
+	</header>
+
+<section id="banner" class="banner">
+	<div class="content">
+		<h2>Contact</h2>
+		</div>
+	</section> <!--the end of banner-->
+    
+	
+<section id="about" class="about">
+	<div id="about_content">	
+	<div class="aboutcontent_info">
+		<div class="imgBx">
+			<img src="images/map.png" alt="map" width="600">
+		</div>
+		</div>
+		
+	<div class="aboutcontent_info">
+		<h2 class="titleText">MRANTI</h2>
+		  <br>
+		   <h2 class="titleText2">HIVE 5 (Enterprise 4),Taman Teknologi MRANTI ,Bukit Jalil, 57000 Kuala Lumpur,Wilayah Persekutuan Kuala Lumpur</h2>
+		<br>
+		<h2 class="titleText2">+603 8998 2020</h2>
+		<br>
+		<h2 class="titleText2">colormalaysia@gmail.com</h2>
+		</div>
+	
+	</div>
+	</section> <!--the end of about-->
+	
+
+
+
+	
+<footer class="footer">
+    <div class="footercom">
+      <img src="images/color-of-malaysia-logo03@2x.png" alt="" width="200">
+    </div>
+<!--	<ul class="footer_navigation">
+		
+	<li><a href="#">Home</a></li>
+		<li><a href="#">About Us</a></li>
+		<li><a href="#">Culture</a></li>
+		<li><a href="#">Downloads</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>  -->
+	<div class="copyrightText">
+	<p>Founded &copy; <a href="#">Colour of Malaysia </a>Inc. All Rights Reserved.</p>
+</div>
+</footer>
+
+<script type="text/javascript">
+	window.addEventListener('scroll',function(){const header = document .querySelector('header');
+	header.classList.toggle("sticky", window.scrollY>0);});
+		function toggleMenu(){
+				var menuToggle =
+				document.querySelector('.menuToggle');
+				menuToggle.classList.toggle('active');
+				var navigation =
+				document.querySelector('.navigation');
+				navigation.classList.toggle('active');
+		}
+	</script>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
